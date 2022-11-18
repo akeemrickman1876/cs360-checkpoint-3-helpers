@@ -1,0 +1,23 @@
+{
+  "name": "cs360-checkpoint-3-helpers",
+  "version": "1.0.0",
+  "description": "This repository contains the 3 helper function files for checkpoint 3 of CS360.",
+  "main": "charCountInString.js",
+  "scripts": {
+    "checkpoint3": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkarpinos/cs360-checkpoint-3-helpers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkarpinos/cs360-checkpoint-3-helpers/issues"
+  },
+  "homepage": "https://github.com/bkarpinos/cs360-checkpoint-3-helpers#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}

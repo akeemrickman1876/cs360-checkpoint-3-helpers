@@ -15,4 +15,4 @@ function charCountInString(char, str) {
   return charOccur.length;
 }
 
-module.exports = charCountInString;
+module.exports = charCountInString;clearImmediate
