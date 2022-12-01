@@ -3,8 +3,26 @@ on:
   workflow_dispatch:
 
 jobs:
-  echo:
+  unit-test:
+    name: Jest unit tests
     runs-on: ubuntu-lastest
-    steps:
-      - name: echo script
-        run: echo "hello world!"
+      steps:
+        - name: Checkout
+          action: https://github.com/marketplace/actions/checkout
+          uses: actions/checkout@v3
+
+        - name: Setup Node.js
+          action: https://github.com/marketplace/actions/setup-node-js-environment
+          uses: actions/setup-node@v3
+          node-version: 16.x
+
+        - name: Install Modules
+          action: run script npm run install
+
+        -name: Unit Tests
+         action: run script npm run checkpoint3
+
+        
+
+          
+          run: echo "hello world!"
